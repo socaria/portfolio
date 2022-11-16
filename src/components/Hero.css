@@ -1,0 +1,34 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.hero__video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.hero__text-container{
+  position: absolute;
+  bottom: 15%;
+  right: 10%;
+  padding: 15px;
+  justify-content: center;
+}
+
+.hero__title {
+  color: white;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.hero__subtitle{ 
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
